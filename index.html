@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <main id="todo">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title fw-bold text-center mb-4 text-primary">
+                  Todo List
+                </h3>
+                <div class="input-group flex-nowrap mb-3">
+                  <input
+                    id="input-box"
+                    type="text"
+                    class="form-control form-control-lg shadow-3"
+                    placeholder="What to do"
+                  />
+                  <button
+                    onclick="addTask()"
+                    class="btn btn-primary btn-lg"
+                    type="button"
+                  >
+                    Add
+                  </button>
+                </div>
+                <ul id="todo-list"></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
