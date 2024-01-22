@@ -16,7 +16,7 @@ A simple to-do list app built with JavaScript.
 
 ## Preview
 
-[See live demo]()
+[See live demo](https://dev-shuvo.github.io/Todo-App-JavaScript/)
 
 | ![](preview.png) |
 | ---------------- |
